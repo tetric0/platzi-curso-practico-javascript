@@ -1,2 +1,10 @@
 # platzi-curso-practico-javascript
-Repositorio de soporte para el 'Curso Práctico de JavaScript' de la plataforma educativa online Platzi.
+
+...
+
+## Taller 1: Figuras geométricas
+
+- Paso 1: Definir las fórmulas
+- Paso 2: Implementar las fórmulas en JavaScript
+- Paso 3: Crear funciones
+- Paso 4: Integrar Javascript con HTML
