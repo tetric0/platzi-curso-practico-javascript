@@ -8,7 +8,7 @@
 function calcularAlturaTringuloIsosceles(lado1, lado2, base) {
 
     if (lado1 !== lado2) {
-        console.log(`
+        console.error(`
 ---------------------------------------------------------------------------
 ¡ERROR!
 El lado 1 del triángulo (${lado1}cm) no es igual al lado 2 (${lado2}cm).

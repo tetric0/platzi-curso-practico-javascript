@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <h3 style="color: darkGray; font-style: italic; ">Curso Práctico de JavaScript en Platzi (Bloque 2)</h3>
+    </header>
+    <section>
+        <h2>Aplicación de cupones</h2>
+        <form>
+            <div>
+                <label for="inputPrecioOriginal">Escribe el precio de tu producto:</label>
+                <input id ="inputPrecioOriginal" type="number" />
+            </div>
+            <div>
+                <label for="inputCodigoCupon">Escribe el código del cupón que deseas aplicar:</label>
+                <input id ="inputCodigoCupon" type="text" />
+            </div>
+            <div>
+                <button type="button" onclick="calcularPrecioConCupon()">Calcular el precio final</button>
+            </div>
+        </form>
+        <div id="areaResultado" style="color: GREEN; "></div>
+    </section>
+    <script src="./descuentos_reto_2.js"></script>
+</body>
+</html>

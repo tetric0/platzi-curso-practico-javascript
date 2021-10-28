@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de cuadros de amortización de hipotecas con tipo de interés fijo</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de cuadros de amortización de hipotecas con tipo de interés fijo</h1>
+        <h3 style="color: darkGray; font-style: italic; ">Curso Práctico de JavaScript (Bloque 4: Reto)</h3>
+    </header>
+    <section>
+        <form>
+            <div class="form-row">
+                <label for="inputPrecioInmueble">Precio del inmueble</label>
+                <input id="inputPrecioInmueble" type="number"/>
+            </div>
+            <div class="form-row">
+                <label for="inputAhorroAportado">Ahorro aportado</label>
+                <input id="inputAhorroAportado" type="number"/>
+            </div>
+            <div class="form-row">
+                <label for="inputPlazo">Plazo en años</label>
+                <input id="inputPlazo" type="number"/>
+            </div>
+            <div class="form-row">
+                <label for="inputInteres">Interés fijo</label>
+                <input id="inputInteres" type="number"/>
+            </div>
+            <div class="form-row">
+                <button type="button" onclick="calcularCuotaHipotecaria()">Calcular</button>
+            </div>
+        </form>
+    </section>
+    <section id="cuadroResultado"style="margin-top: 30px; padding:10px;">
+    </section>
+    <script src="./amortizacion.js"></script>
+</body>
+</html>
